@@ -4,7 +4,7 @@ import java.net.*;
 class ServerThread extends Thread
 {
 	private Socket myDataSocket;
-    private Socket otherDataSocket;
+        private Socket otherDataSocket;
 	private InputStream is;
    	private BufferedReader in;
 	private OutputStream os;
@@ -15,7 +15,7 @@ class ServerThread extends Thread
    	public ServerThread(Socket socket1, Socket socket2)
    	{
       		myDataSocket = socket1;
-            otherDataSocket = socket2;
+                otherDataSocket = socket2;
       		try {
 			is = myDataSocket.getInputStream();
 			in = new BufferedReader(new InputStreamReader(is));
