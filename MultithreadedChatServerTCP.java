@@ -15,13 +15,13 @@ public class MultithreadedChatServerTCP {
 			System.out.println("Server is waiting first client in port: " + PORT);
 			Socket dataSocket1 = connectionSocket.accept();
 			System.out.println("Received request from " + dataSocket1.getInetAddress());
-            System.out.println("Server is waiting second client in port: " + PORT);
-            Socket dataSocket2 = connectionSocket.accept();
+            		System.out.println("Server is waiting second client in port: " + PORT);
+            		Socket dataSocket2 = connectionSocket.accept();
 			System.out.println("Received request from " + dataSocket2.getInetAddress());
 
 			ServerThread sthread1 = new ServerThread(dataSocket1, dataSocket2);
 			sthread1.start();
-            ServerThread sthread2 = new ServerThread(dataSocket2, dataSocket1);
+            		ServerThread sthread2 = new ServerThread(dataSocket2, dataSocket1);
 			sthread2.start();
 		}
 	}
