@@ -31,6 +31,8 @@ class SendThread implements Runnable{
     private OutputStream os;
     private PrintWriter out;
 	
+	// Test
+	//Webhook test
 	public SendThread(Socket soc) throws IOException {
 		dataSocket = soc;
 		os = dataSocket.getOutputStream();
