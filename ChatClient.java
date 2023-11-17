@@ -25,6 +25,7 @@ public class ChatClient {
 	}
 }	
 
+// Send Thread class
 class SendThread implements Runnable{
 
     private Socket dataSocket;
