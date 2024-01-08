@@ -18,4 +18,11 @@ public class ChatClientProtocol {
         System.out.print("Send a reply, CLOSE for exit:");
 		return theInput;
 	}
+	// remove this
+	public String receiveMessage(String theInput) throws IOException {
+	
+		System.out.println("Received message: " + theInput);
+        System.out.print("Send a reply, CLOSE for exit:");
+		return theInput;
+	}
 }
