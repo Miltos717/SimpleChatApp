@@ -9,7 +9,8 @@ public class ChatClient {
     private static final int PORT = 1234;
     //private static final InetAddress HOST = InetAddress.getLocalHost();
     private static final String HOST = "localhost";
-
+	// new violation in line 12 
+	System.out.println("Server is waiting first client in port: " + PORT);
     // we create and start one thread for the receiving messages and
     // one for the sending messages
 	public static void main(String args[]) throws IOException
