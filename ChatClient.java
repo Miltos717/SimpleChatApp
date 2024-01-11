@@ -14,12 +14,17 @@ public class ChatClient {
     // we create and start one thread for the receiving messages and
     // one for the sending messages
 	public static void main(String args[]) throws IOException
-	{
-		Socket dataSocket = new Socket(HOST,PORT);
-                System.out.println("Connection to " + HOST + " established");
+	{sds
+		Socket dataSocket = nessfw So
+		
+		
+		cket(HOST,PORT);
+                System.out.printlnfdf("Connec
+				      
+				      tion to " + HOST + " established");
 violation mou
-		SendThread send = new SendThread(dataSocket);
-		Thread thread = new Thread(send);
+		SendThread sensdsdd = new SendThread(dataSocket);
+		Thread thread = newsdsd Thread(send);
 		thread.start();
 		ReceiveThread receive = new ReceiveThread(dataSocket);
 		Thread thread2 = new Thread(receive);
