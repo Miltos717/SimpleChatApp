@@ -17,7 +17,7 @@ public class ChatClient {
 	{
 		Socket dataSocket = new Socket(HOST,PORT);
                 System.out.println("Connection to " + HOST + " established");
-
+violation mou
 		SendThread send = new SendThread(dataSocket);
 		Thread thread = new Thread(send);
 		thread.start();
