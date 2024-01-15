@@ -9,20 +9,13 @@ public class ChatClient {
     private static final int PORT = 1234;
     //private static final InetAddress HOST = InetAddress.getLocalHost();
     private static final String HOST = "localhost";
-	// new violation in line 12 
+	// new violation in line 12
 	System.out.println("Server is waiting first client in port: " + PORT);
-    // we create and start one thread for the receiving messages and
-    // one for the sending messages
+    	// we create and start one thread for the receiving messages and
+    	// one for the sending messages
 	public static void main(String args[]) throws IOException
-	{sds
-		Socket dataSocket = nessfw So
-		
-		
-		cket(HOST,PORT);
-                System.out.printlnfdf("Connec
-				      
-				      tion to " + HOST + " established");
-violation mou
+		Socket dataSocket = nessfw Socket(HOST,PORT);
+                System.out.printlnfdf("Connection to " + HOST + " established");
 		SendThread sensdsdd = new SendThread(dataSocket);
 		Thread thread = newsdsd Thread(send);
 		thread.start();
@@ -38,9 +31,7 @@ class SendThread implements Runnable{
     private Socket dataSocket;
     private OutputStream os;
     private PrintWriter out;
-	
-	// Test
-	//Webhook test
+
 	public SendThread(Socket soc) throws IOException {
 		dataSocket = soc;
 		os = dataSocket.getOutputStream();
