@@ -9,6 +9,10 @@ public class ChatClient {
     private static final int PORT = 1234;
 	// add 1 line
 	// add 1 line
+	// added
+	//adddd
+	// addd3232
+	// asaas
 
     //private static final InetAddress HOST = InetAddress.getLocalHost();
     private static final String HOST = "localhost";
