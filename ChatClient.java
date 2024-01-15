@@ -80,6 +80,8 @@ class ReceiveThread implements Runnable{
 			}
 		}catch (IOException e){}	
 	}
+
+	// violations exist in 84
 	
 }
 
