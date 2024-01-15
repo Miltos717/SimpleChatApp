@@ -7,6 +7,9 @@ import java.io.*;
 public class ChatClient {
 	// test
     private static final int PORT = 1234;
+	// add 1 line
+	// add 1 line
+
     //private static final InetAddress HOST = InetAddress.getLocalHost();
     private static final String HOST = "localhost";
 	// new violation in line 12
