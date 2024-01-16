@@ -23,6 +23,11 @@ public class MultithreadedChatServerTCP {
 			sthread1.start();
             		ServerThread sthread2 = new ServerThread(dataSocket2, dataSocket1);
 			sthread2.start();
+
+			System.out.println("Received request from " + dataSocket1.getInetAddress());
+            		System.out.println("Server is waiting second client in port: " + PORT);
+            		Socket dataSocket2 = connectionSocket.accept();
+			System.out.println("Received request from " + dataSocket2.getInetAddress());
 		}
 
 		//remove this
