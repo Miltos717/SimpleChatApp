@@ -6,29 +6,8 @@ import java.io.*;
 
 public class ChatClient {
 
-	public class ViolationExample {
-    // Incorrect variable name - should start with a lowercase letter
-    public static int IncorrectVariableName = 10;
-
-    // Incorrect method name - should follow camelCase convention
-    public static void IncorrectMethodName() {
-        // Code here
-    }
-
-    // Incorrect class name - should follow PascalCase convention
-    public class incorrectClassName {
-        // Code here
-    }
-}
-
 	// test
     private static final int PORT = 1234;
-	// add 1 line
-	// add 1 line
-	// added
-	//adddd
-	// addd3232
-	// asaas
 
     //private static final InetAddress HOST = InetAddress.getLocalHost();
     private static final String HOST = "localhost";
