@@ -8,6 +8,7 @@ public class ChatClient {
 
 	// test
 	// test
+	// test
     private static final int PORT = 1234;
 
     //private static final InetAddress HOST = InetAddress.getLocalHost();
