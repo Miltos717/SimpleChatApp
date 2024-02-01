@@ -4,7 +4,6 @@ import java.io.*;
 public class ChatClientProtocol {
 
 	BufferedReader user = new BufferedReader(new InputStreamReader(System.in));
-	// again
 	public String sendMessage() throws IOException {
 	
         System.out.print("Send message, CLOSE for exit:");
@@ -14,11 +13,11 @@ public class ChatClientProtocol {
 
 	public String receiveMessage(String theInput) throws IOException {
 	
-		System.out.println("Received message: " + theInput);
+	System.out.println("Received message: " + theInput);
         System.out.print("Send a reply, CLOSE for exit:");
 		return theInput;
 	}
-	// remove this
+	
 	public String receiveMessage(String theInput) throws IOException {
 	
 		System.out.println("Received message: " + theInput);
