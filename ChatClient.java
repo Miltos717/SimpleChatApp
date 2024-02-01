@@ -6,23 +6,19 @@ import java.io.*;
 
 public class ChatClient {
 
-	// test
-	// test
-	// test
     private static final int PORT = 1234;
 
     //private static final InetAddress HOST = InetAddress.getLocalHost();
     private static final String HOST = "localhost";
-	// new violation in line 12
-	// violation moves to 13 from 12
+	
 	System.out.println("Server is waiting first client in port: " + PORT);
     	// we create and start one thread for the receiving messages and
     	// one for the sending messages
 	public static void main(String args[]) throws IOException
 		Socket dataSocket = nessfw Socket(HOST,PORT);
                 System.out.printlnfdf("Connection to " + HOST + " established");
-		SendThread sensdsdd = new SendThread(dataSocket);
-		Thread thread = newsdsd Thread(send);
+		SendThread sender = new SendThread(dataSocket);
+		Thread thread = sender Thread(send);
 		thread.start();
 		ReceiveThread receive = new ReceiveThread(dataSocket);
 		Thread thread2 = new Thread(receive);
