@@ -1,27 +1,21 @@
 import java.net.*;
-import java.io.*;
+ import java.io.*;
 
-public class ChatClientProtocol {
+ public class ChatClientProtocol {
 
-	BufferedReader user = new BufferedReader(new InputStreamReader(System.in));
-	public String sendMessage() throws IOException {
-	
-        System.out.print("Send message, CLOSE for exit:");
-		String theOutput = user.readLine();
-		return theOutput;
-        }
+ 	BufferedReader user = new BufferedReader(new InputStreamReader(System.in));
 
-	public String receiveMessage(String theInput) throws IOException {
-	
-	System.out.println("Received message: " + theInput);
-        System.out.print("Send a reply, CLOSE for exit:");
-		return theInput;
-	}
-	
-	public String receiveMessage(String theInput) throws IOException {
-	
-		System.out.println("Received message: " + theInput);
-        System.out.print("Send a reply, CLOSE for exit:");
-		return theInput;
-	}
-}
+ 	public String sendMessage() throws IOException {
+
+      		System.out.print("Send message, CLOSE for exit:");
+ 		String theOutput = user.readLine();
+ 		return theOutput;
+         }
+
+ 	public String receiveMessage(String theInput) throws IOException {
+
+ 		System.out.println("Received message: " + theInput);
+                 System.out.print("Send a reply, CLOSE for exit:");
+ 		return theInput;
+ 	}
+ }
