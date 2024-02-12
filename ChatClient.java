@@ -2,8 +2,8 @@
  import java.io.*;
 
  // Spawn a different thread for receiving messages
- // Due to multiple threads used, simultaneous communication is now possibl
-
+ // Due to multiple threads used, simultaneous communication is now possible
+ 
  public class ChatClient {
 
 	private static final int PORT = 1234;
