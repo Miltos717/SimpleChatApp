@@ -3,7 +3,7 @@
 
  // Spawn a different thread for receiving messages
  // Due to multiple threads used, simultaneous communication is now possibl
-
+// jbhbhb
  public class ChatClient {
 
 	private static final int PORT = 1234;
