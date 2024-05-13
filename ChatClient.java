@@ -2,7 +2,6 @@
  import java.io.*;
 
  // Spawn a different thread for receiving messages
- // Due to multiple threads used, simultaneous communication is now possible
  
  public class ChatClient {
 	
