@@ -2,7 +2,6 @@
  import java.io.*;
 
  // Spawn a different thread for receiving messages
-// test
  
  public class ChatClient {
 	
