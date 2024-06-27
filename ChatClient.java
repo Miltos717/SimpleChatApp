@@ -21,7 +21,7 @@
  		thread2.start();
  	}
  }	
-
+// jhhuh
  class SendThread implements Runnable{
 
  	private Socket dataSocket;
