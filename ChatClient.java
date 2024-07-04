@@ -55,8 +55,8 @@
  class ReceiveThread implements Runnable{
 
  	private Socket dataSocket;
-         private InputStream is;
-         private BufferedReader in;
+	private InputStream is;
+    private BufferedReader in;
 
  	public ReceiveThread(Socket soc) throws IOException {
  		dataSocket = soc;

@@ -7,15 +7,17 @@ import java.net.*;
 
  	public String sendMessage() throws IOException {
 
-      		System.out.print("Send message, CLOSE for exit:");
+      	System.out.print("Send message, CLOSE for exit:");
  		String theOutput = user.readLine();
- 		return theOutput;
+
+ 			return theOutput;
          }
 
  	public String receiveMessage(String theInput) throws IOException {
 
  		System.out.println("Received message: " + theInput);
-                 System.out.print("Send a reply, CLOSE for exit:");
- 		return theInput;
+        System.out.print("Send a reply, CLOSE for exit:");
+		
+ 			return theInput;
  	}
  }
