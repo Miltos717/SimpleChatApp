@@ -2,7 +2,7 @@
  import java.io.*;
 
  // Spawn a different thread for receiving messages
- 
+  
  public class ChatClient {
 	
 	private static final int PORT = 1234;
