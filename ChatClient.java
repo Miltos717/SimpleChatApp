@@ -2,7 +2,7 @@
  import java.io.*;
   
  public class ChatClient {
-	
+	// ewewewe
 	private static final int PORT = 1234;
 	//  private static final InetAddress HOST = InetAddress.getLocalHost(); 
 	private static final String HOST = "localhost";
