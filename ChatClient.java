@@ -1,6 +1,6 @@
  import java.net.*;
  import java.io.*;
-ewew
+
  public class ChatClient {
 	private static final int PORT = 1234;
 	private static final InetAddress HOST = InetAddress.getLocalHost(); 
