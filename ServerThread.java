@@ -3,12 +3,12 @@ import java.io.*;
 
  class ServerThread extends Thread
  {
-		private Socket myDataSocket;
-		private Socket otherDataSocket;
-		private InputStream is;
-		private BufferedReader in;
-		private OutputStream os;
-		private PrintWriter out;
+		private final Socket myDataSocket;
+		private final Socket otherDataSocket;
+		private final InputStream is;
+		private final BufferedReader in;
+		private final OutputStream os;
+		private final PrintWriter out;
 		private static final String EXIT = "CLOSE";
 
     	public ServerThread(Socket socket1, Socket socket2)
