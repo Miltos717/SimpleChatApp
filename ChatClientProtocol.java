@@ -7,7 +7,7 @@ import java.net.*;
 
  	public String sendMessage() throws IOException {
 
-      	System.out.print("Send message, CLOSE for exit:");
+      	logger.info("Send message, CLOSE for exit:");
  		String theOutput = user.readLine();
 
  			return theOutput;
@@ -15,8 +15,8 @@ import java.net.*;
 
  	public String receiveMessage(String theInput) throws IOException {
 
- 		System.out.println("Received message: " + theInput);
-        System.out.print("Send a reply, CLOSE for exit:");
+		logger.info("Received message: " + theInput);
+		logger.info("Send a reply, CLOSE for exit:");
 		
  			return theInput;
  	}
