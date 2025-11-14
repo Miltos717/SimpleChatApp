@@ -9,7 +9,7 @@ public class MultithreadedChatServerTCP {
 		// we wait 2 clients to connect
 		//then we create and start 2 threads,each for each client
 		while (true) {	
-			System.out.println("Server is waiting first client in port: " + PORT);
+			logger.info("Server is waiting first client in port: " + PORT));
 			Socket dataSocket1 = connectionSocket.accept();
 			System.out.println("Received request from " + dataSocket1.getInetAddress());
             System.out.println("Server is waiting second client in port: " + PORT);
