@@ -9,6 +9,7 @@
  	public static void main(String args[]) throws IOException
  	{
  		Socket dataSocket = new Socket(HOST,PORT);
+		// aaaa
         System.out.println("Connection to " + HOST + " established");
 
  		SendThread send = new SendThread(dataSocket);
