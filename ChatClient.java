@@ -11,7 +11,7 @@
  		Socket dataSocket = new Socket(HOST,PORT);
 		
         System.out.println("Connection to " + HOST + " established");
-		// WSAJSAN
+			
  		SendThread send = new SendThread(dataSocket);
  		Thread thread = new Thread(send);
  		thread.start();
