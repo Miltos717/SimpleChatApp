@@ -1,0 +1,5 @@
+com/example/chat/ChatApplicationIntegrationTest.class
+com/example/chat/ChatService.class
+com/example/chat/ChatServiceTest.class
+com/example/chat/ChatClient.class
+com/example/chat/ChatServer.class
