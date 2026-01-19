@@ -8,7 +8,6 @@
 
  	public static void main(String args[]) throws IOException
  	{
-		// test
  		Socket dataSocket = new Socket(HOST,PORT);
         System.out.println("Connection to " + HOST + " established");
 
