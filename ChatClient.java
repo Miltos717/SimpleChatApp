@@ -5,9 +5,10 @@
 	private static final int PORT = 1234;
 	//  private static final InetAddress HOST = InetAddress.getLocalHost(); 
 	private static final String HOST = "localhost";
- 
+
  	public static void main(String args[]) throws IOException
  	{
+		// test
  		Socket dataSocket = new Socket(HOST,PORT);
         System.out.println("Connection to " + HOST + " established");
 
