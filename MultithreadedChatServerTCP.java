@@ -6,7 +6,7 @@ public class MultithreadedChatServerTCP {
 	public static void main(String args[]) throws IOException {
 		ServerSocket connectionSocket = new ServerSocket(PORT);
 		
-		// we wait 2 clients to connect
+		// we wait 2 clients to connect 
 		//then we create and start 2 threads,each for each client
 		while (true) {	
 			logger.info("Server is waiting first client in port: " + PORT));
